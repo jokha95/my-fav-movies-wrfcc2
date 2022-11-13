@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+  max-width: 68rem;
+  margin: 0 auto;
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #e1bef1;
+  color: #ac1010;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  
+}
+.card {
+  background: transparent;
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border-color: white;
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #b585cc;
+
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: #d69fd6;
+
+}
+img {
+  padding-left: 100px;
+  border-radius: 5px 5px 0 0;
+  width: 100px;
+  height: 150px;
+}
+@media screen and (min-width: 620px) {
+  body {
+    font-size: 1.9rem;
+    line-height: 1.31579;
+  }
+}
+
